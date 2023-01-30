@@ -8,7 +8,7 @@ My name is Farrah Hanifah, and I am a graduate student majoring in physical ocea
 
 ## Education
 | Degree | Major | University |
-| --- | --- |
+| --- | --- | --- |
 | M.Sc | Earth Sciences | Institut Teknologi Bandung |
 | B.Sc | Oceanography | Institut Teknologi Bandung |
 
