@@ -18,7 +18,7 @@ I am interested in learning the physical process in the ocean, especially on the
 ## Background
 As an international student from Indonesia :indonesia:, the country located between the Asia and Australian continents and the Indian and Pacific oceans, it is fascinating to study the Atlantic Ocean. 
 
-'Indonesia, the largest archipelago in the world to form a single state, consists of five main islands and some 30 smaller archipelagoes, totaling about 18,110 islands and islets of which about 6,000 are inhabited.' `rgb(R,G,B)` (Source:[https://kemlu.go.id/vancouver/en/pages/indonesia_at_a_glance/2016/etc-menu])
+`Indonesia, the largest archipelago in the world to form a single state, consists of five main islands and some 30 smaller archipelagoes, totaling about 18,110 islands and islets of which about 6,000 are inhabited.`(Source: [Kemlu] (https://kemlu.go.id/vancouver/en/pages/indonesia_at_a_glance/2016/etc-menu))
 
 ## Hobbies
 My hobbies are:
