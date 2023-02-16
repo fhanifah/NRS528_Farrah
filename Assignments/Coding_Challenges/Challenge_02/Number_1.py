@@ -21,4 +21,4 @@ for item in list:
 print('List 1 = ', new_list)
 
 # 2. Write this in one line of Python
-print('List 2 = ',[(it) for it in list if it < 5])
+print('List 2 = ', [(it) for it in list if it < 5])
