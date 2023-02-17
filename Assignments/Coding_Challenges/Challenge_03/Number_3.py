@@ -89,4 +89,4 @@ with open('co2-ppm-daily.csv') as co2:
     numdata = 0
     for row in csv.reader(co2):
         anomaly = float(row[1]) - avg_all
-        # print('Aanomaly of atmosperic CO2 for',row[0],'is',round(anomaly,2),'relative to total average')
+        print('Aanomaly of atmosperic CO2 for',row[0],'is',round(anomaly,2),'relative to total average')
