@@ -1,4 +1,7 @@
+# Midterm Challenge
+
 This script is to generate an interpolated spatial map from points of variables in the ocean for several years
+
 There are 4 processes in this script:
 1. Generate yearly csv data from 1 csv data that contain Year, Lat, Lon, and SST
 2. Generate shapefile of SST for every year
