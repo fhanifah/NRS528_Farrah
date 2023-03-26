@@ -38,3 +38,4 @@ cell_size = '10'  # The cell size of the new raster using an existing raster dat
 resampling_type = 'NEAREST'  # Specifies the resampling technique to be used (NEAREST, BILINEAR, CUBIC, MAJORITY)
 # Resample TIFF image to a lower resolution
 arcpy.Resample_management(in_ras, out_ras, cell_size, resampling_type)
+
