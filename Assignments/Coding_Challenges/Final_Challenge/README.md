@@ -8,11 +8,13 @@ Tool 1: Temperature There are 4 processes in this tool:
 2. Generate a raster file of points interpolation.
 3. Masking the interpolation with land, so only the Temperature in the ocean that show in the map
 4. Deleting unnecessary files 
+
 Tool 2: Current There are 4 processes in this tool:
 1. Generate shapefiles of u (zonal current) and v (meridional current) from csv data that contain Lat, Lon, Temperature, u, and v
 2. Generate a raster file of u (zonal current) and v (meridional current) from shapefiles.
 3. Generate vector field file of u (zonal current) and v (meridional current) from raster.
 4. Deleting unnecessary files 
+
 Tool 3: Bathymetry There are 4 processes in this tool:
 1. Define bathymetry from ETOPO10 (Topography and Bathymetry) file.
 2. Masking bathymetry
@@ -27,20 +29,20 @@ In this example, there are 3 inputs needed.
 Steps:
 1. Extract ne_10m_ocean.zip and etopo10.zip
 2. Install and run the toolbox in ArcGIS Pro using this guide for input files: 
-   a. Tool 1: Temperature 
+   - Tool 1: Temperature 
       - Input csv: input csv file, in this example RAMA.csv 
       - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp 
       - Output shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
       - Output raster: output raster (would be deleted at the end of this process, process no.4) 
       - Output Temperature: final result of this tool (raster) 
-   b. Tool 2: Current 
+   - Tool 2: Current 
       - Input csv: input csv file, in this example RAMA.csv 
       - Output u shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
       - Output v shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
       - Output u raster: output raster (would be deleted at the end of this process, process no.4) 
       - Output v raster: output raster (would be deleted at the end of this process, process no.4) 
       - Output vector field: final result of this tool (raster vector field) 
-   c. Tool 3: Bathymetry 
+   - Tool 3: Bathymetry 
       - Input Topography Bathymetry: input topography bathymetry file, in this example etopo10 
       - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp 
       - Input raster Temperature: file from the final result of this Tool 1: Temperature (raster) 
