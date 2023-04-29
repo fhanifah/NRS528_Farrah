@@ -23,8 +23,8 @@ This toolbox has 3 tools for processing and visualizing Temperature, zonal and m
 
 In this example, there are 3 inputs needed.
 1. RAMA.csv: Lat, Lon, Temperature, u, and v are obtained from https://www.pmel.noaa.gov/tao/drupal/disdel/ RAMA (Indian). This data is one-time monthly data (December 2019) in a depth of 10 m.
-2. ne_10m_ocean.shp (for masking land and ocean) obtained from https://www.arcgis.com/home/item.html?id=4462f63e2d1a4844bcf4dab98d376f4e 
-3. etopo10 is obtained from https://github.com/marecotec/Course_ArcGIS_Python/blob/master/Classes/10_Rasters/Step_2_Data.zip
+2. ne_10m_ocean.shp (for masking land and ocean) obtained from https://www.arcgis.com/home/item.html?id=4462f63e2d1a4844bcf4dab98d376f4e
+4. etopo10 is obtained from https://github.com/marecotec/Course_ArcGIS_Python/blob/master/Classes/10_Rasters/Step_2_Data.zip
 
 
 Steps:
