@@ -3,19 +3,19 @@
 This script is a toolbox for processing and visualizing Temperature, zonal and meridional current, and bathymetry from data points. In this example, the data are obtained from RAMA (Indian) https://www.pmel.noaa.gov/tao/drupal/disdel/ in the Indian Ocean and saved in csv file.
 
 This toolbox has 3 tools for processing and visualizing Temperature, zonal and meridional current, and bathymetry, respectively. 
-Tool 1: Temperature There are 4 processes in this tool:
+- Tool 1: Temperature There are 4 processes in this tool:
 1. Generate a shapefile of Temperature from csv data that contain Lat, Lon, Temperature, u, and v
 2. Generate a raster file of points interpolation.
 3. Masking the interpolation with land, so only the Temperature in the ocean that show in the map
 4. Deleting unnecessary files 
 
-Tool 2: Current There are 4 processes in this tool:
+- Tool 2: Current There are 4 processes in this tool:
 1. Generate shapefiles of u (zonal current) and v (meridional current) from csv data that contain Lat, Lon, Temperature, u, and v
 2. Generate a raster file of u (zonal current) and v (meridional current) from shapefiles.
 3. Generate vector field file of u (zonal current) and v (meridional current) from raster.
 4. Deleting unnecessary files 
 
-Tool 3: Bathymetry There are 4 processes in this tool:
+- Tool 3: Bathymetry There are 4 processes in this tool:
 1. Define bathymetry from ETOPO10 (Topography and Bathymetry) file.
 2. Masking bathymetry
 3. Clip bathymetry by known extent (Temperature raster file) - Left Bottom Right Top
