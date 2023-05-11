@@ -39,7 +39,7 @@ Steps:
       - Output raster: rename and change the path of the output raster with the same path of this toobox and all input files, for example D:/Temp_ras.tif (would be deleted at the end of this process, process no.4) 
       - Output Temperature: rename and change the path of the final result of this tool with the same path of this toobox and all input files, for example D:/Temp_mask.tif (raster) 
    - Tool 2: Current 
-      - Input csv: input csv file, in this example RAMA.csv 
+      - Input csv: input csv file, in this example RAMA.csv or filled with for example D:/RAMA.csv
       - Output u shapefile: rename and change the path of the output shapefile with the same path of this toobox and all input files, for example D:/u.shp (would be deleted at the end of this process, process no.4) 
       - Output v shapefile: rename and change the path of the output shapefile with the same path of this toobox and all input files, for example D:/v.shp (would be deleted at the end of this process, process no.4) 
       - Output u raster: rename and change the path of the output raster with the same path of this toobox and all input files, for example D:/u_ras.tif (would be deleted at the end of this process, process no.4) 
