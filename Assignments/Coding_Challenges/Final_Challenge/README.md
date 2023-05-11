@@ -1,5 +1,7 @@
 # Final Challenge
 
+To use and run this toolbox, please read and follow the steps in this Readme.md to avoid getting errors.
+
 This script is a toolbox for processing and visualizing Temperature, zonal and meridional current, and bathymetry from data points. In this example, the data are obtained from RAMA (Indian) https://www.pmel.noaa.gov/tao/drupal/disdel/ in the Indian Ocean and saved in csv file.
 
 
@@ -28,25 +30,25 @@ In this example, there are 3 inputs needed.
 
 
 Steps:
-1. Extract ne_10m_ocean.zip and etopo10.zip
+1. Extract ne_10m_ocean.zip and etopo10.zip in the same directory as all inputs and this toolbox, for example D:/
 2. Install and run the toolbox in ArcGIS Pro using this guide for input files: 
    - Tool 1: Temperature 
-      - Input csv: input csv file, in this example RAMA.csv 
-      - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp 
-      - Output shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
-      - Output raster: output raster (would be deleted at the end of this process, process no.4) 
-      - Output Temperature: final result of this tool (raster) 
+      - Input csv: input csv file, in this example RAMA.csv or filled with for example D:/RAMA.csv
+      - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp or filled with for example D:/ne_10m_ocean.shp
+      - Output shapefile: rename and change the path of the output shapefile with the same path of this toobox and all input files, for example D:/Temp.shp (would be deleted at the end of this process, process no.4) 
+      - Output raster: rename and change the path of the output raster with the same path of this toobox and all input files, for example D:/Temp_ras.tif (would be deleted at the end of this process, process no.4) 
+      - Output Temperature: rename and change the path of the final result of this tool with the same path of this toobox and all input files, for example D:/Temp_mask.tif (raster) 
    - Tool 2: Current 
       - Input csv: input csv file, in this example RAMA.csv 
-      - Output u shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
-      - Output v shapefile: output shapefile (would be deleted at the end of this process, process no.4) 
-      - Output u raster: output raster (would be deleted at the end of this process, process no.4) 
-      - Output v raster: output raster (would be deleted at the end of this process, process no.4) 
-      - Output vector field: final result of this tool (raster vector field) 
+      - Output u shapefile: rename and change the path of the output shapefile with the same path of this toobox and all input files, for example D:/u.shp (would be deleted at the end of this process, process no.4) 
+      - Output v shapefile: rename and change the path of the output shapefile with the same path of this toobox and all input files, for example D:/v.shp (would be deleted at the end of this process, process no.4) 
+      - Output u raster: rename and change the path of the output raster with the same path of this toobox and all input files, for example D:/u_ras.tif (would be deleted at the end of this process, process no.4) 
+      - Output v raster: rename and change the path of the output raster with the same path of this toobox and all input files, for example D:/v_ras.tif (would be deleted at the end of this process, process no.4) 
+      - Output vector field: rename and change the path of the final result of this tool with the same path of this toobox and all input files, for example D:/uv_vectorfield.tif (raster vector field) 
    - Tool 3: Bathymetry 
-      - Input Topography Bathymetry: input topography bathymetry file, in this example etopo10 
-      - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp 
-      - Input raster Temperature: file from the final result of this Tool 1: Temperature (raster) 
-      - Output Bathymetry: output bathymetry (would be deleted at the end of this process, process no.4) 
-      - Output mask Bathymetry: output masking bathymetry (would be deleted at the end of this process, process no.4) 
-      - Output Bathymetry same region as Temperature: final result of this tool (raster)
+      - Input Topography Bathymetry: input topography bathymetry file, in this example etopo10 or filled with for example D:/etopo10
+      - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp or filled with for example D:/ne_10m_ocean.shp
+      - Input raster Temperature: file from the final result of this Tool 1: Temperature (raster) or for example D:/Temp_mask.tif (raster)
+      - Output Bathymetry: rename and change the path of the output raster bathymetry with the same path of this toobox and all input files, for example D:/Bat.tif (would be deleted at the end of this process, process no.4) 
+      - Output mask Bathymetry: rename and change the path of the output raster masking bathymetry with the same path of this toobox and all input files, for example D:/Bat_mask.tifoutput (would be deleted at the end of this process, process no.4) 
+      - Output Bathymetry same region as Temperature: rename and change the path of the final result of this tool with the same path of this toobox and all input files, for example D:/Bathymetry.tif (raster)
