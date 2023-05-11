@@ -50,5 +50,5 @@ Steps:
       - Input mask file: input shapefile for masking, in this example ne_10m_ocean.shp or filled with for example D:/ne_10m_ocean.shp
       - Input raster Temperature: file from the final result of this Tool 1: Temperature (raster) or for example D:/Temp_mask.tif (raster)
       - Output Bathymetry: rename and change the path of the output raster bathymetry with the same path of this toobox and all input files, for example D:/Bat.tif (would be deleted at the end of this process, process no.4) 
-      - Output mask Bathymetry: rename and change the path of the output raster masking bathymetry with the same path of this toobox and all input files, for example D:/Bat_mask.tifoutput (would be deleted at the end of this process, process no.4) 
+      - Output mask Bathymetry: rename and change the path of the output raster masking bathymetry with the same path of this toobox and all input files, for example D:/Bat_mask.tif (would be deleted at the end of this process, process no.4) 
       - Output Bathymetry same region as Temperature: rename and change the path of the final result of this tool with the same path of this toobox and all input files, for example D:/Bathymetry.tif (raster)
